@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Pacifico|Poppins|Roboto|Ubuntu&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+.navbar{
+    background-color: #ffffff;
+}
+.navbar-brand{
+    margin-left: 10%;
+    font-family: 'Poppins';
+    font-size: 25px;
+    color: #3ca51c !important;
+}
+.navbar-brand span{
+    color: #49b436;
+}
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: #bdc3c7 !important;
+    font-family: 'Poppins';
+}
+.nav-link:hover{
+    color: #56C841 !important;
+}
+.active .nav-link{
+    color: #56C841 !important;
+}
+.sign-up-btn{
+    margin-right: 15px;
+    padding: 6px 26px;
+    border-color: #1E550D;
+    border-radius: 25px;
+    color: #1E550D;
+    transition: .3s ease-out;
+    cursor: pointer;
+}
+.sign-up-btn:hover{
+    background-color: #388a2a;
+    border-color: #388a2a;
+    color: #ffffff;
+}
+.site-content{
+    margin-top: 0px;
+    height: 700px;
+    background-image: url('/assets/minimalist.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.site-title{
+    font-family: 'Poppins' Bold;
+    color: #1E550D;
+    margin-top: 35%;
+    margin-bottom: 15px;
+    font-size: 54px;
+}
+.site-desc{
+    font-family: 'Muli';
+    color: #1E550D;
+    font-size: 18px;
+}
+.flex-column{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.go-btn{
+    background-color: #124D09;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 6px 26px;
+    color: #ffffff;
+    transition: .3s ease-out;
+    cursor: pointer;
+}
+.go-btn:hover{
+    color: #124D09;
+    background-color: transparent;
+    border-color: #124D09;
+}
+
+/* Section-1 */
+
+.section-1{
+    margin-top: 6%;
+}
+.section-1 .heading-1{
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+.section-1 .para-1{
+    width: 60%;
+    line-height: 35px;
+    font-size: 16px;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.section-1 .para-1 .card-text{
+    color: rgba(54, 54, 54, 0.1);
+}
+.section-1{
+    margin-bottom: 8%;
+}
+.card{
+    border-radius: 25px;
+    width: 20rem;
+    height: 30rem;
+}
+.card img{
+    border-radius: 25px 25px 0 0;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+.card img:hover{
+    background-position-x: 100%;
+    transform: translateY(-15px);
+}
+
+/* Section 2 */
+.section-2{
+    margin-top: 6%;
+}
+.section-2 .container-fluid{
+    background-image: url('../assets/likegreen.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+.section-2 .heading-1{
+    margin-top: 4%;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    width: 90%;
+    color: #1E550D;
+}
+.section-2 .para{
+    width: 80%;
+    font-family: 'Muli';
+    color: #1E550D;
+}
+.section-2 .shr-btn{
+    margin-top: 15px;
+    margin-bottom: 15%;
+    width: 20%;
+    background-color: #1E550D;
+    border-radius: 25px;
+    color: #ffffff;
+}
+.section-2 .shr-btn:hover{
+    border-color: #124D09;
+    background-color: transparent;
+    color: #124D09;
+}
+
+/* Section 3 */
+
+.section-3{
+    margin-top: 6%;
+}
+.section-3 i{
+    color: #388a2a;
+}
+.section-3 p{
+    color: rgba(0, 0, 0, 0.59);
+}
+
+/* Section 4 */
+.section-4{
+    margin-top: 6%;
+}
+.section-4 .col-md-6 .heading{
+    font-family: 'Poppins';
+    margin-top: 100px;
+    color: #1E550D;
+}
+.section-4 .col-md-6 img{
+    border-radius: 25px;
+}
+.section-4 .greeny{
+    width: 550px;
+}
+.section-4 .greeny-text{
+    margin-left: 70px;
+}
+.section-4 .col-md-5 .para-1{
+    font-family: 'Muli';
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.59);
+}
+.section-4 a{
+    font-family: 'Muli';
+    font-size: 14px;
+    color: #3ca51c;
+    text-decoration: none;
+}
+
+/* Section 5 */
+
+.section-5{
+    margin-top: 6%;
+}
+.section-5 h4{
+    font-family: 'Poppins';
+}
+.section-5 .form-email, .btn-email{
+    font-family: 'Poppins';
+}
+.section-5 .social{
+    margin: 5%;
+}
+.social i{
+    color: #3ca51c;
+    font-size: 20px;
+    cursor: pointer;
+}
+.section-5 h5{
+    font-family: 'Poppins';
+    color: #3ca51c;
+}
+.section-5 h5 span{
+    color: #49b436;
+}
+/* Responsive */
+
+/* Tablet Screen */
+@media screen and (max-width: 1068px){
+    .section-1 .card{
+        width: 14rem;
+        height: 32rem;
+    }
+    .para-1{
+        font-size: 16px;
+    }
+    .section-2 .container-fluid{
+        height: 300px;
+    }
+    .section-2 .heading-1, .para{
+        margin-top: 10px;
+    }
+    .section-4 .greeny{
+        width: 480px;
+    }
+    .section-4 .greeny-text{
+        margin-top: -100px;
+        margin-left: 70px;
+    }
+}
+
+/* Responsive Screen 1*/
+@media screen and (max-width: 768px){
+    .container-fluid .site-content{
+        height: 500px;
+    }
+    .section-4 .greeny{
+        width: 400px;
+    }
+    .section-4 .greeny-text .heading{
+        font-size: 30px;
+    }
+    .section-4 .greeny-text .para-1{
+        font-size: 15px;
+    }
+    .section-4 .greeny-text .a{
+        font-size: 14px;
+    }
+}
+
+/* Responsive Screen 2 */
+@media screen and (max-width: 767px){
+    .container-fluid .site-title{
+        font-size: 44px;
+        margin-top: 30%;
+        margin-bottom: 5px;
+    }
+    .container-fluid .go-btn{
+        margin-top: 5px;
+    }
+    .section-1 .heading-1{
+        font-size: 32px;
+    }
+    .section-1 .para-1{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .section-1 .card{
+        margin-left: 25%;
+        margin-bottom: 20px;
+    }
+    .section-2 .flex-column{
+        float: left;
+    }
+    .section-4 .greeny{
+        width: 350px;
+        margin-left: 100px;
+        margin-bottom: 0px;
+    }
+    .section-4 .greeny-text{
+        margin-left: 100px;
+    }
+}
+
+/* Responsive Screen 3 */
+@media screen and (max-width: 440px){
+    .section-4 .greeny{
+        width: 300px;
+        margin-left: 55px;
+    }
+    .section-4 .greeny-text{
+        margin-left: 55px;
+    }
+    .section-5 h4{
+        font-size: 20px;
+    }
+    .section-5 .form-inline{
+        width: 70%;
+        margin-left: 65px;
+    }
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 320px){
+    .section-1 .heading-1{
+        font-size: 22px;
+    }
+    .section-1 .para-1{
+        font-size: 16px;
+    }
+    .section-1 h4{
+        font-size: 18px;
+    }
+    .section-1 p{
+        font-size: 14px;
+    }
+    .section-1 .card{
+        margin-left: 10%;
+    }
+    .section-2 .heading-1{
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    .section-2 .para{
+        font-size: 14px;
+    }
+    .section-2 .shr-btn{
+        font-size: 14px;
+        width: 30%;
+    }
+    .section-3 h3{
+        font-size: 18px;
+    }
+    .section-3 p{
+        font-size: 14px;
+    }
+    .section-4 .greeny{
+        width: 250px;
+        margin-left: 20px;
+    }
+    .section-4 h1{
+        font-size: 16px;
+    }   
+    .section-4 p{
+        font-size: 14px;
+    }
+    .section-5 h4{
+        font-size: 18px;
+    }
+}
