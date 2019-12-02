@@ -45,7 +45,7 @@ body{
 .site-content{
     margin-top: 0px;
     height: 700px;
-    background-image: url('assets/minimalist.jpg');
+    background-image: url('/assets/minimalist.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -122,7 +122,7 @@ body{
     margin-top: 6%;
 }
 .section-2 .container-fluid{
-    background-image: url('assets/likegreen.jpg');
+    background-image: url('/assets/likegreen.jpg');
     background-size: cover;
     background-attachment: fixed;
     height: 400px;
